@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Practica</title>
+
+    <!--Librerias-->
+    <script src="recursos/librerias/jquery/jquery-3.6.0.js"></script>
+    <script src="recursos/librerias/popper/popper.min.js"></script>
+
+    <script src="recursos/librerias/bootstrap/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="recursos/librerias/bootstrap/bootstrap.min.css">
+</head>
+
+<body class="bg-info">
+    <section class="container-fluid">
+        <div class="row bg-success">
+            <div class="col-md-4">
+                <img src="recursos/images/cat.jpg"
+                alt="" 
+                class="rounded" width="500px">
+            </div>
+                <p class="h1 justify-content-center text-light">
+                    Mi primera página con Bootstrap
+                </p>
+        </div>
+
+        <div class="col-md-4">
+            <a href="#nosotros"
+            class="btn btn-primary mt-3">Nosotros</a>
+            <a href="#contacto"
+            class="btn btn-info mt-3 p-2">Contacto</a>
+        </div>
+    </section>
+    <section id="principal" class="p-5">
+         <div class="alert alert-warning">
+            <span class="h3 text-primary">Ejemplo de Alerta o Mensaje con Bootstrap</span> 
+         </div>
+    </section>
+
+    <!-- Dibujando una tabla Bootstrap -->
+    <div id="tablaBootstrap" class="p-5">
+        <table class="table table-striped table-hover table-success">
+            <thead>
+               <tr>
+                   <th>Códigos</th>
+                   <th>Nombres</th>
+                   <th>Nombres</th>
+               </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>002-1278</td>
+                    <td>Carlos</td>
+                    <td>Bone</td>
+                </tr>
+
+                <tr>
+                    <td>002-1594</td>
+                    <td>Leonel</td>
+                    <td>Pérez</td>
+                </tr>
+
+                <tr>
+                    <td>002-6558</td>
+                    <td>Ana Lucía</td>
+                    <td>Rodríguez</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="card p-2 m-2">
+        <img src="recursos/images/cat.jpg" alt="" width="100px">
+
+        <div class="card-body">
+            <h5 class="card-title">Cat</h5>
+            <p class="card-text">Cat with cool shades</p>
+        </div>
+    </div>
+    
+</body>
+</html>
